@@ -1,0 +1,20 @@
+==================================
+New OB Master Gyn Clinic
+456 Maligaya Street, Tarlac City, Philippines
+Contact: (123) 456-7890
+Clinic #: 54321 | Doctor #: 5678
+Doctor: Dr. Foley | Date: 05/23/2024 
+Patient: Heart Evangelista-Escudera | First Trimester 
+Type of Check-Up: Initial Check-Up
+-----------------------------------------------------------
+Item                               Price      Qty     Total
+-----------------------------------------------------------
+Check-Up Bill: Php. 2000.00
+Next Appointment: 28/08/2025
+Vitamin B1: ₱15.67 x 700 = ₱10,969.00 | 
+-----------------------------------------------------------
+Total:                                           ₱12,969.00
+Payment:                                        ₱13,000.00
+Change:                                             ₱31.00
+=================================
+Thank you for choosing New OB-GYN Clinic!
