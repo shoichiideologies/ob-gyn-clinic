@@ -4,13 +4,16 @@ Imports System.Runtime.CompilerServices
 Imports System.Windows.Automation.Peers
 Imports System.Xml
 Imports QRCoder
+Imports OB_GYN_Clinic.FilePaths
+
 
 Public Class UC_Appointments
     Dim ReusableMethods As New UniversalMethods()
-    Dim filePathVitamins As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Vitamins.txt"
-    Dim filePathReceipt As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Receipt.txt"
-    Dim filePathPatient As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Patients.txt"
-    Dim filePathSchedule As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Schedule.txt"
+    Dim filePathPrescription As String = PrescriptionFile
+    Dim filePathVitamins As String = VitaminsFile
+    Dim filePathReceipt As String = ReceiptFile
+    Dim filePathPatient As String = PatientsFile
+    Dim filePathSchedule As String = ScheduleFile
 
     Public Function CheckTrimester(ByVal lastMenstrualDate As DateTime) As String
         Dim daysSinceLastMenstrual As Integer = (DateTime.Today - lastMenstrualDate.Date).TotalDays
@@ -54,7 +57,12 @@ Public Class UC_Appointments
         txbTrimester.Text = trimester
 
         Dim nextAppointment As DateTime = ScheduleAppointment(trimester, ReusableMethods.TryParseDate(initialCheckUpString))
-        dtpNextAppointment.Text = nextAppointment.ToShortDateString()
+        If nextAppointment = Date.MinValue Then
+            MessageBox.Show("Appointment date is missing or invalid.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            dtpNextAppointment.Text = ""
+        Else
+            dtpNextAppointment.Text = nextAppointment.ToShortDateString()
+        End If
 
         Dim appointment As String = CheckIfOfficeHours(nextAppointment)
         txbScheduledOB.Text = ReusableMethods.GetDoctor(appointment)
@@ -154,5 +162,7 @@ Public Class UC_Appointments
         End If
     End Sub
 
+    Private Sub dgvPatients_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvPatients.CellContentClick
 
+    End Sub
 End Class

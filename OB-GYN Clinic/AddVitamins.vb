@@ -1,10 +1,17 @@
 ﻿Imports System.Data.SqlClient
 Imports System.IO
 Imports Guna.UI2.WinForms
+Imports OB_GYN_Clinic.FilePaths
+
 
 Public Class AddVitamins
-    Dim ReusableMethods As New UniversalMethods
-    Dim filePathVitamins As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Vitamins.txt"
+    Dim ReusableMethods As New UniversalMethods()
+    Dim filePathPrescription As String = PrescriptionFile
+    Dim filePathVitamins As String = VitaminsFile
+    Dim filePathReceipt As String = ReceiptFile
+    Dim filePathPatient As String = PatientsFile
+    Dim filePathSchedule As String = ScheduleFile
+
     Private WithEvents ltbVitamins As New ListBox()
 
     Private Sub UpdateStockQuantity(vitaminName As String, additionalQuantity As Integer)

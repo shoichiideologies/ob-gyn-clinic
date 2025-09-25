@@ -1,12 +1,15 @@
 ﻿Imports System.IO
 Imports OB_GYN_Clinic.UC_Summary
+Imports OB_GYN_Clinic.FilePaths
 
 Public Class UC_Summary
     Dim ReusableMethod As New UniversalMethods()
-    Dim filePathVitamins As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Vitamins.txt"
-    Dim filePathReceipt As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Receipt.txt"
-    Dim filePathPatient As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Patients.txt"
-    Dim filePathSchedule As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Schedule.txt"
+
+    Dim filePathPrescription As String = PrescriptionFile
+    Dim filePathVitamins As String = VitaminsFile
+    Dim filePathReceipt As String = ReceiptFile
+    Dim filePathPatient As String = PatientsFile
+    Dim filePathSchedule As String = ScheduleFile
 
     Structure Schedule
         Dim Day As Date

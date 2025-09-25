@@ -2,9 +2,11 @@
 Imports System.Drawing.Printing
 Imports System.IO
 Imports QRCoder
+Imports OB_GYN_Clinic.FilePaths
 
 Public Class QRCode
-    Dim filePathReceipt As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Receipt.txt"
+    Dim filePathReceipt As String = ReceiptFile
+
     Private Sub QRCodeForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         GenerateAndDisplayQRCode(filePathReceipt)
     End Sub

@@ -1,4 +1,5 @@
 ﻿Imports System.IO
+Imports OB_GYN_Clinic.FilePaths
 
 Public Class UC_Inventory
     Private Sub AddVitamin_Click(sender As Object, e As EventArgs) Handles AddVitamin.Click
@@ -7,10 +8,14 @@ Public Class UC_Inventory
     End Sub
 
     Public Sub LoadDataFromFile()
-        Dim filePath As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Vitamins.txt"
+        Dim filePathPrescription As String = PrescriptionFile
+        Dim filePathVitamins As String = VitaminsFile
+        Dim filePathReceipt As String = ReceiptFile
+        Dim filePathPatient As String = PatientsFile
+        Dim filePathSchedule As String = ScheduleFile
 
-        If File.Exists(filePath) Then
-            Using reader As New StreamReader(filePath)
+        If File.Exists(filePathVitamins) Then
+            Using reader As New StreamReader(filePathVitamins)
                 While Not reader.EndOfStream
                     Dim line As String = reader.ReadLine()
                     Dim values() As String = line.Split(","c)

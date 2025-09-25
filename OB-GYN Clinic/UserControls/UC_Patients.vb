@@ -1,11 +1,15 @@
 ﻿Imports System.Globalization
 Imports System.IO
+Imports OB_GYN_Clinic.FilePaths
+
 
 Public Class UC_Patients
     Dim ReusableMethods As New UniversalMethods()
-    Dim filePathPatients As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Patients.txt"
-    Dim filePathSchedule As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Schedule.txt"
-    Dim filePathPrescription As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Prescription.txt"
+    Dim filePathPrescription As String = PrescriptionFile
+    Dim filePathVitamins As String = VitaminsFile
+    Dim filePathReceipt As String = ReceiptFile
+    Dim filePathPatient As String = PatientsFile
+    Dim filePathSchedule As String = ScheduleFile
 
     Private Sub addPatient_Click(sender As Object, e As EventArgs) Handles addPatient.Click
         Dim add As New AddPatient()
@@ -13,8 +17,8 @@ Public Class UC_Patients
     End Sub
 
     Public Sub DisplayPatientsInformation()
-        If File.Exists(filePathPatients) Then
-            Using reader As New StreamReader(filePathPatients)
+        If File.Exists(filePathPatient) Then
+            Using reader As New StreamReader(filePathPatient)
                 While Not reader.EndOfStream
                     Dim line As String = reader.ReadLine()
                     Dim values() As String = line.Split(","c)
@@ -58,8 +62,8 @@ Public Class UC_Patients
     Private Sub FilterPatientsByDoctor(selectedDoctor As String)
         dgvPatientsList.Rows.Clear()
 
-        If File.Exists(filePathPatients) Then
-            Using reader As New StreamReader(filePathPatients)
+        If File.Exists(filePathPatient) Then
+            Using reader As New StreamReader(filePathPatient)
                 While Not reader.EndOfStream
                     Dim line As String = reader.ReadLine()
                     Dim values() As String = line.Split(","c)
@@ -92,7 +96,7 @@ Public Class UC_Patients
             If result = DialogResult.Yes Then
                 Dim patientName As String = dgvPatientsList.Rows(e.RowIndex).Cells(1).Value.ToString()
                 ReusableMethods.RemovePatientFromDataGridView(patientName, dgvPatientsList)
-                ReusableMethods.RemovePatientFromPatientsFile(patientName, filePathPatients)
+                ReusableMethods.RemovePatientFromPatientsFile(patientName, filePathPatient)
                 ReusableMethods.RemovePatientAppointmentFromScheduleFile(patientName, filePathSchedule)
                 ReusableMethods.RemovePatientPrescriptionsFromScheduleFile(patientName, filePathPrescription)
             End If

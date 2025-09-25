@@ -158,7 +158,7 @@ Partial Class Dashboard
         Me.btnLogout.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.btnLogout.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.btnLogout.FillColor = System.Drawing.Color.Transparent
-        Me.btnLogout.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogout.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogout.ForeColor = System.Drawing.Color.Black
         Me.btnLogout.HoverState.BorderColor = System.Drawing.Color.Transparent
         Me.btnLogout.HoverState.CustomBorderColor = System.Drawing.Color.Transparent
@@ -187,7 +187,7 @@ Partial Class Dashboard
         Me.btnSummary.DisabledState.FillColor = System.Drawing.Color.Transparent
         Me.btnSummary.DisabledState.ForeColor = System.Drawing.Color.Transparent
         Me.btnSummary.FillColor = System.Drawing.Color.Transparent
-        Me.btnSummary.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSummary.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSummary.ForeColor = System.Drawing.Color.Black
         Me.btnSummary.HoverState.BorderColor = System.Drawing.Color.Transparent
         Me.btnSummary.HoverState.CustomBorderColor = System.Drawing.Color.Transparent
@@ -216,7 +216,7 @@ Partial Class Dashboard
         Me.btnInventory.DisabledState.FillColor = System.Drawing.Color.Transparent
         Me.btnInventory.DisabledState.ForeColor = System.Drawing.Color.Transparent
         Me.btnInventory.FillColor = System.Drawing.Color.Transparent
-        Me.btnInventory.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnInventory.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnInventory.ForeColor = System.Drawing.Color.Black
         Me.btnInventory.HoverState.BorderColor = System.Drawing.Color.Transparent
         Me.btnInventory.HoverState.CustomBorderColor = System.Drawing.Color.Transparent
@@ -256,7 +256,7 @@ Partial Class Dashboard
         Me.btnTransaction.DisabledState.FillColor = System.Drawing.Color.Transparent
         Me.btnTransaction.DisabledState.ForeColor = System.Drawing.Color.Transparent
         Me.btnTransaction.FillColor = System.Drawing.Color.Transparent
-        Me.btnTransaction.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTransaction.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnTransaction.ForeColor = System.Drawing.Color.Black
         Me.btnTransaction.HoverState.BorderColor = System.Drawing.Color.Transparent
         Me.btnTransaction.HoverState.CustomBorderColor = System.Drawing.Color.Transparent
@@ -285,7 +285,7 @@ Partial Class Dashboard
         Me.btnAppointments.DisabledState.FillColor = System.Drawing.Color.Transparent
         Me.btnAppointments.DisabledState.ForeColor = System.Drawing.Color.Transparent
         Me.btnAppointments.FillColor = System.Drawing.Color.Transparent
-        Me.btnAppointments.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAppointments.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAppointments.ForeColor = System.Drawing.Color.Black
         Me.btnAppointments.HoverState.BorderColor = System.Drawing.Color.Transparent
         Me.btnAppointments.HoverState.CustomBorderColor = System.Drawing.Color.Transparent
@@ -314,7 +314,7 @@ Partial Class Dashboard
         Me.btnPatients.DisabledState.FillColor = System.Drawing.Color.Transparent
         Me.btnPatients.DisabledState.ForeColor = System.Drawing.Color.Transparent
         Me.btnPatients.FillColor = System.Drawing.Color.Transparent
-        Me.btnPatients.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPatients.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPatients.ForeColor = System.Drawing.Color.Black
         Me.btnPatients.HoverState.BorderColor = System.Drawing.Color.Transparent
         Me.btnPatients.HoverState.CustomBorderColor = System.Drawing.Color.Transparent
@@ -343,7 +343,7 @@ Partial Class Dashboard
         Me.btnStart.DisabledState.FillColor = System.Drawing.Color.Transparent
         Me.btnStart.DisabledState.ForeColor = System.Drawing.Color.Transparent
         Me.btnStart.FillColor = System.Drawing.Color.Transparent
-        Me.btnStart.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnStart.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnStart.ForeColor = System.Drawing.Color.Black
         Me.btnStart.HoverState.BorderColor = System.Drawing.Color.Transparent
         Me.btnStart.HoverState.CustomBorderColor = System.Drawing.Color.Transparent
@@ -404,11 +404,11 @@ Partial Class Dashboard
         '
         Me.lblTitle.AutoSize = True
         Me.Guna2Transition1.SetDecoration(Me.lblTitle, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.lblTitle.Font = New System.Drawing.Font("Century Gothic", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTitle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.lblTitle.Location = New System.Drawing.Point(282, 40)
         Me.lblTitle.Name = "lblTitle"
-        Me.lblTitle.Size = New System.Drawing.Size(0, 47)
+        Me.lblTitle.Size = New System.Drawing.Size(0, 46)
         Me.lblTitle.TabIndex = 7
         '
         'btnShow

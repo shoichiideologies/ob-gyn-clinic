@@ -33,6 +33,7 @@ Public Class Dashboard
     End Sub
 
     Private Sub Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        OB_GYN_Clinic.FilePaths.InitializeFiles()
         Dim ucd As New UC_Start()
         AddUserControl(ucd)
 

@@ -4,13 +4,15 @@ Imports QRCoder
 Imports System.Windows.Interop
 Imports System.Runtime.InteropServices
 Imports System.Messaging
+Imports OB_GYN_Clinic.FilePaths
 
 Public Class UC_Transactions
-    Dim filePathVitamins As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Vitamins.txt"
-    Dim filePathReceipt As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Receipt.txt"
-    Dim filePathPatient As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Patients.txt"
-    Dim filePathSchedule As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Schedule.txt"
-    Dim filePathPrescription As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Prescription.txt"
+    Dim filePathPrescription As String = PrescriptionFile
+    Dim filePathVitamins As String = VitaminsFile
+    Dim filePathReceipt As String = ReceiptFile
+    Dim filePathPatient As String = PatientsFile
+    Dim filePathSchedule As String = ScheduleFile
+
     Private WithEvents listBoxResultsName As New ListBox()
     Private WithEvents listBoxResultsVitamin As New ListBox()
     Private Patients As New AddPatient()
@@ -528,4 +530,7 @@ Public Class UC_Transactions
         End Try
     End Sub
 
+    Private Sub dgvPrescriptions_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvPrescriptions.CellContentClick
+
+    End Sub
 End Class

@@ -2,10 +2,9 @@
 Imports System.IO
 Imports System.Text
 Imports OB_GYN_Clinic.UC_Summary
+Imports OB_GYN_Clinic.FilePaths
 
 Public Class UniversalMethods
-
-    'CHECKING OF COMPONENTS
     Public Function IsNullOrEmpty(ByVal text As String) As Boolean
         If String.IsNullOrEmpty(text) Then
             Return False
@@ -119,10 +118,10 @@ Public Class UniversalMethods
 
     'DISPLAYING OF INFORMATIONS
     Public Sub DisplayPatients(ByVal dgvPatients As DataGridView)
-        Dim filePath As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Patients.txt"
         dgvPatients.Rows.Clear()
+        Dim filePathPatient As String = PatientsFile
 
-        Using reader As New StreamReader(filePath)
+        Using reader As New StreamReader(filePathPatient)
             While Not reader.EndOfStream
                 Dim line As String = reader.ReadLine()
                 Dim values() As String = line.Split(","c)
@@ -137,7 +136,8 @@ Public Class UniversalMethods
     End Sub
 
     Public Sub DisplayAppointments(ByVal dgvAppointments As DataGridView)
-        Dim filePathSchedule As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Schedule.txt"
+        Dim filePathSchedule As String = ScheduleFile
+
         dgvAppointments.Rows.Clear()
         If File.Exists(filePathSchedule) Then
             Using reader As New StreamReader(filePathSchedule)

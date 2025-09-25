@@ -160,6 +160,7 @@
     <Compile Include="Dashboard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FilePaths.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -367,6 +368,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\NOMG %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Text Files\Patients.txt" />
+    <Content Include="Text Files\Prescription.txt" />
+    <Content Include="Text Files\Receipt.txt" />
+    <Content Include="Text Files\Schedule.txt" />
+    <Content Include="Text Files\Vitamins.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

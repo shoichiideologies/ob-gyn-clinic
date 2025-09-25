@@ -4,11 +4,16 @@ Imports System.Net
 Imports System.Runtime.CompilerServices
 Imports System.Security.Cryptography.X509Certificates
 Imports Guna.UI2.WinForms
+Imports OB_GYN_Clinic.FilePaths
+
 
 Public Class AddPatient
     Dim ReusableMethods As New UniversalMethods()
-    Dim filePathPatient As String = "C:\Users\ACER\OneDrive - Tarlac State University\Desktop\Angelo Miranda\OB-GYN Clinic\Patients.txt"
-
+    Dim filePathPrescription As String = PrescriptionFile
+    Dim filePathVitamins As String = VitaminsFile
+    Dim filePathReceipt As String = ReceiptFile
+    Dim filePathPatient As String = PatientsFile
+    Dim filePathSchedule As String = ScheduleFile
     Public Sub New()
         InitializeComponent()
     End Sub
@@ -132,9 +137,5 @@ Public Class AddPatient
 
         txbAge.Text = age.ToString()
         txbAge.ReadOnly = True
-    End Sub
-
-    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
-
     End Sub
 End Class
