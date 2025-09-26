@@ -1,11 +1,9 @@
 ﻿Imports System.IO
 
 Public Module FilePaths
-    ' Base path (where your .exe runs)
-    Public ReadOnly BasePath As String = Application.StartupPath
-
-    ' Folder for text files
-    Public ReadOnly TextFolder As String = Path.Combine(BasePath, "Text Files")
+    ' Get the project directory (two levels up from bin\Debug or bin\Release)
+    Public ReadOnly ProjectPath As String = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..\.."))
+    Public ReadOnly TextFolder As String = Path.Combine(ProjectPath, "Text Files")
 
     ' File paths (directly inside Text Files folder)
     Public ReadOnly PatientsFile As String = Path.Combine(TextFolder, "Patients.txt")

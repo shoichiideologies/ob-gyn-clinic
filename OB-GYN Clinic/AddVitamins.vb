@@ -40,21 +40,42 @@ Public Class AddVitamins
     End Sub
 
     Private Sub btnAddVitamin_Click(sender As Object, e As EventArgs) Handles btnAddVitamin.Click
-        ' Only add if all required fields are filled
-        If Not String.IsNullOrEmpty(txbStocksScientificName.Text) AndAlso
-           Not String.IsNullOrEmpty(txbManufactureName.Text) AndAlso
-           Not String.IsNullOrEmpty(txbPricePerPiece.Text) AndAlso
-           Not String.IsNullOrEmpty(txbStocksQuantity.Text) AndAlso
-           Not String.IsNullOrEmpty(cbbVitaminType.Text) Then
+        If grbDrugDetails.Enabled Then
+            ' Only check Drug Details group box fields
+            If String.IsNullOrWhiteSpace(cbbVitaminType.Text) OrElse
+               String.IsNullOrWhiteSpace(txbStocksScientificName.Text) OrElse
+               String.IsNullOrWhiteSpace(txbManufactureName.Text) OrElse
+               String.IsNullOrWhiteSpace(txbPricePerPiece.Text) OrElse
+               String.IsNullOrWhiteSpace(txbQuantity.Text) Then
 
-            Dim newEntry As String = $"{cbbVitaminType.Text},{txbStocksScientificName.Text},{txbManufactureName.Text},{txbPricePerPiece.Text},{txbStocksQuantity.Text}"
+                MessageBox.Show("Please fill in all required fields for Drug Details.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                Return
+            End If
+
+            Dim newEntry As String = $"{cbbVitaminType.Text},{txbStocksScientificName.Text},{txbManufactureName.Text},{txbPricePerPiece.Text},{txbQuantity.Text}"
             Using writer As New StreamWriter(filePathVitamins, True)
                 writer.WriteLine(newEntry)
             End Using
-            MessageBox.Show("You have successfully added a Vitamin!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            MessageBox.Show("You have successfully added a new Vitamin!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
             Me.Close()
-        Else
-            MessageBox.Show("Please fill in all required fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+
+        ElseIf gpbAddStocks.Enabled Then
+            ' Add Stocks: Require only scientific name and quantity
+            If String.IsNullOrWhiteSpace(txbStocksScientificName.Text) OrElse
+               String.IsNullOrWhiteSpace(txbStocksQuantity.Text) Then
+
+                MessageBox.Show("Please fill in Scientific Name and Quantity for Add Stocks.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                Return
+            End If
+
+            ' Update stock for existing vitamin
+            Dim stocksToAdd As Integer
+            If Integer.TryParse(txbStocksQuantity.Text, stocksToAdd) Then
+                UpdateStockQuantity(txbStocksScientificName.Text, stocksToAdd)
+                Me.Close()
+            Else
+                MessageBox.Show("Quantity must be a valid number.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End If
         End If
     End Sub
 
@@ -133,6 +154,9 @@ Public Class AddVitamins
         Dim listBoxWidth As Integer = txbStocksScientificName.Width
         ltbVitamins.Location = New Point(listBoxX, listBoxY)
         ltbVitamins.Width = listBoxWidth
+
+        ' Show the actual file path being used
+        MessageBox.Show(filePathVitamins, "Vitamins File Path")
     End Sub
 
     Private Sub btnSearch_Click(sender As Object, e As EventArgs)

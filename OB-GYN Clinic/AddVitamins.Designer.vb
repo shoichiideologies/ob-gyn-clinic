@@ -70,7 +70,7 @@ Partial Class AddVitamins
         Me.grbDrugDetails.Controls.Add(Me.Quantity)
         Me.grbDrugDetails.Controls.Add(Me.txbQuantity)
         Me.grbDrugDetails.Controls.Add(Me.ScientificName)
-        Me.grbDrugDetails.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.grbDrugDetails.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.grbDrugDetails.Location = New System.Drawing.Point(41, 42)
         Me.grbDrugDetails.Name = "grbDrugDetails"
         Me.grbDrugDetails.Size = New System.Drawing.Size(635, 260)
@@ -87,7 +87,7 @@ Partial Class AddVitamins
         Me.btnScientificName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.btnScientificName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.btnScientificName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.btnScientificName.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnScientificName.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnScientificName.ForeColor = System.Drawing.Color.Black
         Me.btnScientificName.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btnScientificName.Location = New System.Drawing.Point(336, 57)
@@ -105,7 +105,7 @@ Partial Class AddVitamins
         Me.cbbAppropriateTrimester.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbbAppropriateTrimester.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.cbbAppropriateTrimester.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.cbbAppropriateTrimester.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbbAppropriateTrimester.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbbAppropriateTrimester.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
         Me.cbbAppropriateTrimester.ItemHeight = 30
         Me.cbbAppropriateTrimester.Items.AddRange(New Object() {"First Trimester", "Second Trimester", "Third Trimester"})
@@ -117,10 +117,10 @@ Partial Class AddVitamins
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(52, 101)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(134, 17)
+        Me.Label1.Size = New System.Drawing.Size(120, 16)
         Me.Label1.TabIndex = 39
         Me.Label1.Text = "Manufacture Name"
         '
@@ -133,7 +133,7 @@ Partial Class AddVitamins
         Me.txbManufactureName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbManufactureName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbManufactureName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txbManufactureName.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txbManufactureName.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txbManufactureName.ForeColor = System.Drawing.Color.Black
         Me.txbManufactureName.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txbManufactureName.Location = New System.Drawing.Point(54, 123)
@@ -153,7 +153,7 @@ Partial Class AddVitamins
         Me.txbPricePerPiece.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbPricePerPiece.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbPricePerPiece.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txbPricePerPiece.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txbPricePerPiece.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txbPricePerPiece.ForeColor = System.Drawing.Color.Black
         Me.txbPricePerPiece.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txbPricePerPiece.Location = New System.Drawing.Point(335, 189)
@@ -167,20 +167,20 @@ Partial Class AddVitamins
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(332, 101)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(196, 17)
+        Me.Label2.Size = New System.Drawing.Size(193, 16)
         Me.Label2.TabIndex = 37
         Me.Label2.Text = "Appropriate Trimester To Take"
         '
         'lblSurname
         '
         Me.lblSurname.AutoSize = True
-        Me.lblSurname.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSurname.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSurname.Location = New System.Drawing.Point(332, 169)
         Me.lblSurname.Name = "lblSurname"
-        Me.lblSurname.Size = New System.Drawing.Size(102, 17)
+        Me.lblSurname.Size = New System.Drawing.Size(100, 16)
         Me.lblSurname.TabIndex = 34
         Me.lblSurname.Text = "Price Per Piece"
         '
@@ -191,7 +191,7 @@ Partial Class AddVitamins
         Me.cbbVitaminType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbbVitaminType.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.cbbVitaminType.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.cbbVitaminType.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbbVitaminType.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbbVitaminType.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
         Me.cbbVitaminType.ItemHeight = 30
         Me.cbbVitaminType.Items.AddRange(New Object() {"Vitamin A", "Vitamin C", "Vitamin D", "Vitamin E", "Vitamin K", "Vitamin C", "Vitamin B1", "Vitamin B2", "Vitamin B3", "Vitamin B5", "Vitamin B6", "Vitamin B7", "Vitamin B9", "Vitamin B12"})
@@ -203,20 +203,20 @@ Partial Class AddVitamins
         'lblFirstName
         '
         Me.lblFirstName.AutoSize = True
-        Me.lblFirstName.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblFirstName.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblFirstName.Location = New System.Drawing.Point(54, 35)
         Me.lblFirstName.Name = "lblFirstName"
-        Me.lblFirstName.Size = New System.Drawing.Size(90, 17)
+        Me.lblFirstName.Size = New System.Drawing.Size(86, 16)
         Me.lblFirstName.TabIndex = 0
         Me.lblFirstName.Text = "Vitamin Type"
         '
         'Quantity
         '
         Me.Quantity.AutoSize = True
-        Me.Quantity.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Quantity.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Quantity.Location = New System.Drawing.Point(51, 169)
         Me.Quantity.Name = "Quantity"
-        Me.Quantity.Size = New System.Drawing.Size(63, 17)
+        Me.Quantity.Size = New System.Drawing.Size(55, 16)
         Me.Quantity.TabIndex = 3
         Me.Quantity.Text = "Quantity"
         '
@@ -229,7 +229,7 @@ Partial Class AddVitamins
         Me.txbQuantity.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbQuantity.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbQuantity.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txbQuantity.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txbQuantity.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txbQuantity.ForeColor = System.Drawing.Color.Black
         Me.txbQuantity.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txbQuantity.Location = New System.Drawing.Point(54, 191)
@@ -243,10 +243,10 @@ Partial Class AddVitamins
         'ScientificName
         '
         Me.ScientificName.AutoSize = True
-        Me.ScientificName.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ScientificName.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ScientificName.Location = New System.Drawing.Point(332, 37)
         Me.ScientificName.Name = "ScientificName"
-        Me.ScientificName.Size = New System.Drawing.Size(108, 17)
+        Me.ScientificName.Size = New System.Drawing.Size(100, 16)
         Me.ScientificName.TabIndex = 7
         Me.ScientificName.Text = "Scientific Name"
         '
@@ -258,7 +258,7 @@ Partial Class AddVitamins
         Me.btnAddVitamin.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.btnAddVitamin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.btnAddVitamin.FillColor = System.Drawing.Color.RosyBrown
-        Me.btnAddVitamin.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAddVitamin.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAddVitamin.ForeColor = System.Drawing.Color.White
         Me.btnAddVitamin.Location = New System.Drawing.Point(223, 469)
         Me.btnAddVitamin.Name = "btnAddVitamin"
@@ -282,11 +282,11 @@ Partial Class AddVitamins
         'lblError
         '
         Me.lblError.AutoSize = True
-        Me.lblError.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblError.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblError.ForeColor = System.Drawing.Color.Red
         Me.lblError.Location = New System.Drawing.Point(38, 305)
         Me.lblError.Name = "lblError"
-        Me.lblError.Size = New System.Drawing.Size(0, 17)
+        Me.lblError.Size = New System.Drawing.Size(0, 16)
         Me.lblError.TabIndex = 41
         '
         'gpbAddStocks
@@ -295,7 +295,7 @@ Partial Class AddVitamins
         Me.gpbAddStocks.Controls.Add(Me.Label3)
         Me.gpbAddStocks.Controls.Add(Me.Label4)
         Me.gpbAddStocks.Controls.Add(Me.txbStocksScientificName)
-        Me.gpbAddStocks.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.gpbAddStocks.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gpbAddStocks.Location = New System.Drawing.Point(41, 329)
         Me.gpbAddStocks.Name = "gpbAddStocks"
         Me.gpbAddStocks.Size = New System.Drawing.Size(635, 110)
@@ -307,7 +307,7 @@ Partial Class AddVitamins
         '
         Me.txbStocksQuantity.BackColor = System.Drawing.Color.Transparent
         Me.txbStocksQuantity.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.txbStocksQuantity.Font = New System.Drawing.Font("Century Gothic", 7.8!)
+        Me.txbStocksQuantity.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!)
         Me.txbStocksQuantity.Location = New System.Drawing.Point(336, 49)
         Me.txbStocksQuantity.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txbStocksQuantity.Maximum = New Decimal(New Integer() {20000, 0, 0, 0})
@@ -319,20 +319,20 @@ Partial Class AddVitamins
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(332, 29)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(63, 17)
+        Me.Label3.Size = New System.Drawing.Size(55, 16)
         Me.Label3.TabIndex = 46
         Me.Label3.Text = "Quantity"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(51, 29)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(58, 17)
+        Me.Label4.Size = New System.Drawing.Size(51, 16)
         Me.Label4.TabIndex = 45
         Me.Label4.Text = "Vitamin"
         '
@@ -345,7 +345,7 @@ Partial Class AddVitamins
         Me.txbStocksScientificName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbStocksScientificName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbStocksScientificName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txbStocksScientificName.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txbStocksScientificName.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txbStocksScientificName.ForeColor = System.Drawing.Color.Black
         Me.txbStocksScientificName.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txbStocksScientificName.Location = New System.Drawing.Point(57, 49)
