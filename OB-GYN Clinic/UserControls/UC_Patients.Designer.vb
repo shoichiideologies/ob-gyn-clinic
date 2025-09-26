@@ -22,10 +22,10 @@ Partial Class UC_Patients
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.addPatient = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.dgvPatientsList = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.PatientID = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -56,7 +56,7 @@ Partial Class UC_Patients
         Me.addPatient.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.addPatient.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.addPatient.FillColor = System.Drawing.Color.LightCoral
-        Me.addPatient.Font = New System.Drawing.Font("Century Gothic", 28.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.addPatient.Font = New System.Drawing.Font("Microsoft Sans Serif", 28.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.addPatient.ForeColor = System.Drawing.Color.White
         Me.addPatient.Location = New System.Drawing.Point(94, 524)
         Me.addPatient.Name = "addPatient"
@@ -70,56 +70,56 @@ Partial Class UC_Patients
         '
         Me.dgvPatientsList.AllowUserToAddRows = False
         Me.dgvPatientsList.AllowUserToResizeRows = False
-        DataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle13.BackColor = System.Drawing.Color.Snow
-        DataGridViewCellStyle13.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle13.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle13.NullValue = "-"
-        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.MistyRose
-        DataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.Black
-        Me.dgvPatientsList.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle13
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.Snow
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle1.NullValue = "-"
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.MistyRose
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black
+        Me.dgvPatientsList.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         Me.dgvPatientsList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells
         Me.dgvPatientsList.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
-        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle14.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle14.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle14.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle14.NullValue = "-"
-        DataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.MistyRose
-        DataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.Desktop
-        DataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvPatientsList.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle14
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle2.NullValue = "-"
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.MistyRose
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.Desktop
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvPatientsList.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.dgvPatientsList.ColumnHeadersHeight = 40
         Me.dgvPatientsList.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.PatientID, Me.FirstName, Me.LastName, Me.Age, Me.CivilStatus, Me.Birthdate, Me.Address, Me.FirstBaby, Me.PrefferedDelivery, Me.CompanyFirstName, Me.CompanyLastName, Me.Relationship, Me.ContactNumber, Me.LastMenstrualCycle, Me.OBDoctor, Me.InitialCheckUp})
-        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle15.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle15.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.MistyRose
-        DataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvPatientsList.DefaultCellStyle = DataGridViewCellStyle15
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.MistyRose
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvPatientsList.DefaultCellStyle = DataGridViewCellStyle3
         Me.dgvPatientsList.GridColor = System.Drawing.Color.LightGray
         Me.dgvPatientsList.Location = New System.Drawing.Point(94, 85)
         Me.dgvPatientsList.MultiSelect = False
         Me.dgvPatientsList.Name = "dgvPatientsList"
         Me.dgvPatientsList.ReadOnly = True
         Me.dgvPatientsList.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
-        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle16.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle16.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle16.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.MistyRose
-        DataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvPatientsList.RowHeadersDefaultCellStyle = DataGridViewCellStyle16
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.MistyRose
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvPatientsList.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
         Me.dgvPatientsList.RowHeadersVisible = False
         Me.dgvPatientsList.RowHeadersWidth = 70
         Me.dgvPatientsList.RowTemplate.Height = 40
         Me.dgvPatientsList.Size = New System.Drawing.Size(934, 413)
         Me.dgvPatientsList.TabIndex = 3
         Me.dgvPatientsList.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
-        Me.dgvPatientsList.ThemeStyle.AlternatingRowsStyle.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dgvPatientsList.ThemeStyle.AlternatingRowsStyle.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dgvPatientsList.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
         Me.dgvPatientsList.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.dgvPatientsList.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
@@ -134,7 +134,7 @@ Partial Class UC_Patients
         Me.dgvPatientsList.ThemeStyle.ReadOnly = True
         Me.dgvPatientsList.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White
         Me.dgvPatientsList.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
-        Me.dgvPatientsList.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dgvPatientsList.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dgvPatientsList.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
         Me.dgvPatientsList.ThemeStyle.RowsStyle.Height = 40
         Me.dgvPatientsList.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
@@ -146,7 +146,7 @@ Partial Class UC_Patients
         Me.PatientID.MinimumWidth = 6
         Me.PatientID.Name = "PatientID"
         Me.PatientID.ReadOnly = True
-        Me.PatientID.Width = 91
+        Me.PatientID.Width = 85
         '
         'FirstName
         '
@@ -157,7 +157,7 @@ Partial Class UC_Patients
         Me.FirstName.Name = "FirstName"
         Me.FirstName.ReadOnly = True
         Me.FirstName.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.FirstName.Width = 95
+        Me.FirstName.Width = 92
         '
         'LastName
         '
@@ -165,7 +165,7 @@ Partial Class UC_Patients
         Me.LastName.MinimumWidth = 6
         Me.LastName.Name = "LastName"
         Me.LastName.ReadOnly = True
-        Me.LastName.Width = 97
+        Me.LastName.Width = 92
         '
         'Age
         '
@@ -173,7 +173,7 @@ Partial Class UC_Patients
         Me.Age.MinimumWidth = 6
         Me.Age.Name = "Age"
         Me.Age.ReadOnly = True
-        Me.Age.Width = 62
+        Me.Age.Width = 60
         '
         'CivilStatus
         '
@@ -181,7 +181,7 @@ Partial Class UC_Patients
         Me.CivilStatus.MinimumWidth = 6
         Me.CivilStatus.Name = "CivilStatus"
         Me.CivilStatus.ReadOnly = True
-        Me.CivilStatus.Width = 98
+        Me.CivilStatus.Width = 92
         '
         'Birthdate
         '
@@ -189,7 +189,7 @@ Partial Class UC_Patients
         Me.Birthdate.MinimumWidth = 6
         Me.Birthdate.Name = "Birthdate"
         Me.Birthdate.ReadOnly = True
-        Me.Birthdate.Width = 94
+        Me.Birthdate.Width = 88
         '
         'Address
         '
@@ -197,7 +197,7 @@ Partial Class UC_Patients
         Me.Address.MinimumWidth = 6
         Me.Address.Name = "Address"
         Me.Address.ReadOnly = True
-        Me.Address.Width = 85
+        Me.Address.Width = 86
         '
         'FirstBaby
         '
@@ -205,7 +205,7 @@ Partial Class UC_Patients
         Me.FirstBaby.MinimumWidth = 6
         Me.FirstBaby.Name = "FirstBaby"
         Me.FirstBaby.ReadOnly = True
-        Me.FirstBaby.Width = 87
+        Me.FirstBaby.Width = 88
         '
         'PrefferedDelivery
         '
@@ -213,7 +213,7 @@ Partial Class UC_Patients
         Me.PrefferedDelivery.MinimumWidth = 6
         Me.PrefferedDelivery.Name = "PrefferedDelivery"
         Me.PrefferedDelivery.ReadOnly = True
-        Me.PrefferedDelivery.Width = 135
+        Me.PrefferedDelivery.Width = 131
         '
         'CompanyFirstName
         '
@@ -221,7 +221,7 @@ Partial Class UC_Patients
         Me.CompanyFirstName.MinimumWidth = 6
         Me.CompanyFirstName.Name = "CompanyFirstName"
         Me.CompanyFirstName.ReadOnly = True
-        Me.CompanyFirstName.Width = 121
+        Me.CompanyFirstName.Width = 114
         '
         'CompanyLastName
         '
@@ -229,7 +229,7 @@ Partial Class UC_Patients
         Me.CompanyLastName.MinimumWidth = 6
         Me.CompanyLastName.Name = "CompanyLastName"
         Me.CompanyLastName.ReadOnly = True
-        Me.CompanyLastName.Width = 123
+        Me.CompanyLastName.Width = 114
         '
         'Relationship
         '
@@ -237,7 +237,7 @@ Partial Class UC_Patients
         Me.Relationship.MinimumWidth = 6
         Me.Relationship.Name = "Relationship"
         Me.Relationship.ReadOnly = True
-        Me.Relationship.Width = 114
+        Me.Relationship.Width = 110
         '
         'ContactNumber
         '
@@ -245,7 +245,7 @@ Partial Class UC_Patients
         Me.ContactNumber.MinimumWidth = 6
         Me.ContactNumber.Name = "ContactNumber"
         Me.ContactNumber.ReadOnly = True
-        Me.ContactNumber.Width = 135
+        Me.ContactNumber.Width = 120
         '
         'LastMenstrualCycle
         '
@@ -253,7 +253,7 @@ Partial Class UC_Patients
         Me.LastMenstrualCycle.MinimumWidth = 6
         Me.LastMenstrualCycle.Name = "LastMenstrualCycle"
         Me.LastMenstrualCycle.ReadOnly = True
-        Me.LastMenstrualCycle.Width = 152
+        Me.LastMenstrualCycle.Width = 145
         '
         'OBDoctor
         '
@@ -261,7 +261,7 @@ Partial Class UC_Patients
         Me.OBDoctor.MinimumWidth = 6
         Me.OBDoctor.Name = "OBDoctor"
         Me.OBDoctor.ReadOnly = True
-        Me.OBDoctor.Width = 95
+        Me.OBDoctor.Width = 90
         '
         'InitialCheckUp
         '
@@ -269,7 +269,7 @@ Partial Class UC_Patients
         Me.InitialCheckUp.MinimumWidth = 6
         Me.InitialCheckUp.Name = "InitialCheckUp"
         Me.InitialCheckUp.ReadOnly = True
-        Me.InitialCheckUp.Width = 126
+        Me.InitialCheckUp.Width = 118
         '
         'cmbDoctors
         '
@@ -280,7 +280,7 @@ Partial Class UC_Patients
         Me.cmbDoctors.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbDoctors.FocusedColor = System.Drawing.Color.Gainsboro
         Me.cmbDoctors.FocusedState.BorderColor = System.Drawing.Color.Gainsboro
-        Me.cmbDoctors.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmbDoctors.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbDoctors.ForeColor = System.Drawing.Color.Black
         Me.cmbDoctors.ItemHeight = 30
         Me.cmbDoctors.Location = New System.Drawing.Point(753, 27)
@@ -290,13 +290,13 @@ Partial Class UC_Patients
         '
         'UC_Patients
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 17.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Snow
         Me.Controls.Add(Me.cmbDoctors)
         Me.Controls.Add(Me.dgvPatientsList)
         Me.Controls.Add(Me.addPatient)
-        Me.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name = "UC_Patients"
         Me.Size = New System.Drawing.Size(1118, 661)
         CType(Me.dgvPatientsList, System.ComponentModel.ISupportInitialize).EndInit()

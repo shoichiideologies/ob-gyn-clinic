@@ -93,8 +93,13 @@ Public Class UC_Transactions
                 'TRIMESTER
                 Dim lastMenstrualString As String = ReusableMethods.RetrieveData(13, name, filePathPatient, 1)
                 Dim lastMenstrualDate As DateTime = ReusableMethods.TryParseDate(lastMenstrualString)
-                Dim trimester As String = uca.CheckTrimester(lastMenstrualDate)
-                txbTrimester.Text = trimester
+                If Not String.IsNullOrWhiteSpace(lastMenstrualString) AndAlso DateTime.TryParse(lastMenstrualString, lastMenstrualDate) Then
+                    Dim trimester As String = uca.CheckTrimester(lastMenstrualDate)
+                    txbTrimester.Text = trimester
+                Else
+                    MessageBox.Show("Last menstrual date is missing or invalid for this patient.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                    txbTrimester.Text = ""
+                End If
                 lblSearchNameError.Text = ""
             Else
                 lblSearchNameError.Text = "Unregistered Patient"

@@ -109,7 +109,7 @@ Partial Class AddPatient
         Me.gpbAcompany.Controls.Add(Me.txbComponyFirstName)
         Me.gpbAcompany.Controls.Add(Me.Label7)
         Me.gpbAcompany.Controls.Add(Me.txbRelationship)
-        Me.gpbAcompany.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.gpbAcompany.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gpbAcompany.Location = New System.Drawing.Point(37, 283)
         Me.gpbAcompany.Name = "gpbAcompany"
         Me.gpbAcompany.Size = New System.Drawing.Size(635, 178)
@@ -120,10 +120,10 @@ Partial Class AddPatient
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.Location = New System.Drawing.Point(318, 94)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(119, 17)
+        Me.Label12.Size = New System.Drawing.Size(103, 16)
         Me.Label12.TabIndex = 39
         Me.Label12.Text = "Contact Number"
         '
@@ -136,7 +136,7 @@ Partial Class AddPatient
         Me.txbContactNumber.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbContactNumber.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbContactNumber.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txbContactNumber.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txbContactNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txbContactNumber.ForeColor = System.Drawing.Color.Black
         Me.txbContactNumber.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txbContactNumber.Location = New System.Drawing.Point(321, 114)
@@ -150,20 +150,20 @@ Partial Class AddPatient
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.Location = New System.Drawing.Point(318, 36)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(77, 17)
+        Me.Label10.Size = New System.Drawing.Size(72, 16)
         Me.Label10.TabIndex = 38
         Me.Label10.Text = "Last Name"
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.Location = New System.Drawing.Point(53, 36)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(75, 17)
+        Me.Label11.Size = New System.Drawing.Size(72, 16)
         Me.Label11.TabIndex = 35
         Me.Label11.Text = "First Name"
         '
@@ -176,7 +176,7 @@ Partial Class AddPatient
         Me.txbComponyLastName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbComponyLastName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbComponyLastName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txbComponyLastName.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txbComponyLastName.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txbComponyLastName.ForeColor = System.Drawing.Color.Black
         Me.txbComponyLastName.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txbComponyLastName.Location = New System.Drawing.Point(321, 56)
@@ -196,7 +196,7 @@ Partial Class AddPatient
         Me.txbComponyFirstName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbComponyFirstName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbComponyFirstName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txbComponyFirstName.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txbComponyFirstName.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txbComponyFirstName.ForeColor = System.Drawing.Color.Black
         Me.txbComponyFirstName.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txbComponyFirstName.Location = New System.Drawing.Point(56, 56)
@@ -210,10 +210,10 @@ Partial Class AddPatient
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(53, 94)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(86, 17)
+        Me.Label7.Size = New System.Drawing.Size(82, 16)
         Me.Label7.TabIndex = 20
         Me.Label7.Text = "Relationship"
         '
@@ -226,7 +226,7 @@ Partial Class AddPatient
         Me.txbRelationship.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbRelationship.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbRelationship.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txbRelationship.Font = New System.Drawing.Font("Century Gothic", 7.8!)
+        Me.txbRelationship.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!)
         Me.txbRelationship.ForeColor = System.Drawing.Color.Black
         Me.txbRelationship.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txbRelationship.Location = New System.Drawing.Point(56, 114)
@@ -240,11 +240,11 @@ Partial Class AddPatient
         'lblError
         '
         Me.lblError.AutoSize = True
-        Me.lblError.Font = New System.Drawing.Font("Century Gothic", 7.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblError.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblError.ForeColor = System.Drawing.Color.Red
         Me.lblError.Location = New System.Drawing.Point(34, 608)
         Me.lblError.Name = "lblError"
-        Me.lblError.Size = New System.Drawing.Size(14, 17)
+        Me.lblError.Size = New System.Drawing.Size(12, 15)
         Me.lblError.TabIndex = 32
         Me.lblError.Text = "*"
         '
@@ -256,7 +256,7 @@ Partial Class AddPatient
         Me.txbAddPatient.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.txbAddPatient.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.txbAddPatient.FillColor = System.Drawing.Color.RosyBrown
-        Me.txbAddPatient.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txbAddPatient.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txbAddPatient.ForeColor = System.Drawing.Color.White
         Me.txbAddPatient.Location = New System.Drawing.Point(232, 647)
         Me.txbAddPatient.Name = "txbAddPatient"
@@ -282,7 +282,7 @@ Partial Class AddPatient
         Me.grpPersonalInformation.Controls.Add(Me.txbAddress)
         Me.grpPersonalInformation.Controls.Add(Me.Label6)
         Me.grpPersonalInformation.Controls.Add(Me.txbFirstBaby)
-        Me.grpPersonalInformation.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.grpPersonalInformation.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.grpPersonalInformation.Location = New System.Drawing.Point(37, 38)
         Me.grpPersonalInformation.Name = "grpPersonalInformation"
         Me.grpPersonalInformation.Size = New System.Drawing.Size(635, 230)
@@ -298,7 +298,7 @@ Partial Class AddPatient
         Me.dtpBirthdate.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.dtpBirthdate.Location = New System.Drawing.Point(57, 115)
         Me.dtpBirthdate.Name = "dtpBirthdate"
-        Me.dtpBirthdate.Size = New System.Drawing.Size(259, 23)
+        Me.dtpBirthdate.Size = New System.Drawing.Size(259, 22)
         Me.dtpBirthdate.TabIndex = 5
         '
         'txbPreferredDelivery
@@ -309,7 +309,7 @@ Partial Class AddPatient
         Me.txbPreferredDelivery.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.txbPreferredDelivery.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txbPreferredDelivery.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txbPreferredDelivery.Font = New System.Drawing.Font("Century Gothic", 7.8!)
+        Me.txbPreferredDelivery.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!)
         Me.txbPreferredDelivery.ForeColor = System.Drawing.Color.Black
         Me.txbPreferredDelivery.ItemHeight = 30
         Me.txbPreferredDelivery.Items.AddRange(New Object() {"Caesarean", "Labor"})
@@ -321,20 +321,20 @@ Partial Class AddPatient
         'lblSurname
         '
         Me.lblSurname.AutoSize = True
-        Me.lblSurname.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSurname.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSurname.Location = New System.Drawing.Point(319, 35)
         Me.lblSurname.Name = "lblSurname"
-        Me.lblSurname.Size = New System.Drawing.Size(77, 17)
+        Me.lblSurname.Size = New System.Drawing.Size(72, 16)
         Me.lblSurname.TabIndex = 34
         Me.lblSurname.Text = "Last Name"
         '
         'lblFirstName
         '
         Me.lblFirstName.AutoSize = True
-        Me.lblFirstName.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblFirstName.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblFirstName.Location = New System.Drawing.Point(54, 35)
         Me.lblFirstName.Name = "lblFirstName"
-        Me.lblFirstName.Size = New System.Drawing.Size(75, 17)
+        Me.lblFirstName.Size = New System.Drawing.Size(72, 16)
         Me.lblFirstName.TabIndex = 0
         Me.lblFirstName.Text = "First Name"
         '
@@ -347,7 +347,7 @@ Partial Class AddPatient
         Me.txbPatientLastName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbPatientLastName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbPatientLastName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txbPatientLastName.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txbPatientLastName.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txbPatientLastName.ForeColor = System.Drawing.Color.Black
         Me.txbPatientLastName.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txbPatientLastName.Location = New System.Drawing.Point(322, 55)
@@ -361,30 +361,30 @@ Partial Class AddPatient
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(318, 95)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(34, 17)
+        Me.Label1.Size = New System.Drawing.Size(32, 16)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Age"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(55, 154)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(57, 17)
+        Me.Label2.Size = New System.Drawing.Size(58, 16)
         Me.Label2.TabIndex = 7
         Me.Label2.Text = "Address"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.Location = New System.Drawing.Point(423, 154)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(119, 17)
+        Me.Label9.Size = New System.Drawing.Size(115, 16)
         Me.Label9.TabIndex = 29
         Me.Label9.Text = "Prefered Delivery "
         '
@@ -397,7 +397,7 @@ Partial Class AddPatient
         Me.txbAge.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbAge.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbAge.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txbAge.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txbAge.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txbAge.ForeColor = System.Drawing.Color.Black
         Me.txbAge.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txbAge.Location = New System.Drawing.Point(321, 115)
@@ -417,7 +417,7 @@ Partial Class AddPatient
         Me.txbPatientFirstName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbPatientFirstName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbPatientFirstName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txbPatientFirstName.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txbPatientFirstName.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txbPatientFirstName.ForeColor = System.Drawing.Color.Black
         Me.txbPatientFirstName.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txbPatientFirstName.Location = New System.Drawing.Point(57, 55)
@@ -435,7 +435,7 @@ Partial Class AddPatient
         Me.txbCivilStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.txbCivilStatus.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txbCivilStatus.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txbCivilStatus.Font = New System.Drawing.Font("Century Gothic", 7.8!)
+        Me.txbCivilStatus.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!)
         Me.txbCivilStatus.ForeColor = System.Drawing.Color.Black
         Me.txbCivilStatus.ItemHeight = 30
         Me.txbCivilStatus.Items.AddRange(New Object() {"Single", "Married", "Widowed", "Divorce"})
@@ -447,20 +447,20 @@ Partial Class AddPatient
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(420, 95)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(78, 17)
+        Me.Label3.Size = New System.Drawing.Size(72, 16)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Civil Status"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(319, 154)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(66, 17)
+        Me.Label5.Size = New System.Drawing.Size(67, 16)
         Me.Label5.TabIndex = 9
         Me.Label5.Text = "First Baby"
         '
@@ -473,7 +473,7 @@ Partial Class AddPatient
         Me.txbAddress.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbAddress.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txbAddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txbAddress.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txbAddress.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txbAddress.ForeColor = System.Drawing.Color.Black
         Me.txbAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txbAddress.Location = New System.Drawing.Point(57, 174)
@@ -487,10 +487,10 @@ Partial Class AddPatient
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(55, 95)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(66, 17)
+        Me.Label6.Size = New System.Drawing.Size(60, 16)
         Me.Label6.TabIndex = 25
         Me.Label6.Text = "Birthdate"
         '
@@ -502,7 +502,7 @@ Partial Class AddPatient
         Me.txbFirstBaby.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.txbFirstBaby.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txbFirstBaby.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txbFirstBaby.Font = New System.Drawing.Font("Century Gothic", 7.8!)
+        Me.txbFirstBaby.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!)
         Me.txbFirstBaby.ForeColor = System.Drawing.Color.Black
         Me.txbFirstBaby.ItemHeight = 30
         Me.txbFirstBaby.Items.AddRange(New Object() {"Yes", "No"})
@@ -517,7 +517,7 @@ Partial Class AddPatient
         Me.GroupBox1.Controls.Add(Me.dtpLastMenstrualCycle)
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.Label8)
-        Me.GroupBox1.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(37, 487)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(635, 118)
@@ -533,7 +533,7 @@ Partial Class AddPatient
         Me.cmbOBDoctors.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbOBDoctors.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.cmbOBDoctors.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.cmbOBDoctors.Font = New System.Drawing.Font("Century Gothic", 7.8!)
+        Me.cmbOBDoctors.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!)
         Me.cmbOBDoctors.ForeColor = System.Drawing.Color.Black
         Me.cmbOBDoctors.ItemHeight = 30
         Me.cmbOBDoctors.Items.AddRange(New Object() {"Dr. Smith", "Dr. Foley", "Dr. Gibbins", "Dr. Manlapaz", "Dr. Hoffman"})
@@ -551,26 +551,26 @@ Partial Class AddPatient
         Me.dtpLastMenstrualCycle.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.dtpLastMenstrualCycle.Location = New System.Drawing.Point(56, 58)
         Me.dtpLastMenstrualCycle.Name = "dtpLastMenstrualCycle"
-        Me.dtpLastMenstrualCycle.Size = New System.Drawing.Size(261, 23)
+        Me.dtpLastMenstrualCycle.Size = New System.Drawing.Size(261, 22)
         Me.dtpLastMenstrualCycle.TabIndex = 14
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(54, 38)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(138, 17)
+        Me.Label4.Size = New System.Drawing.Size(130, 16)
         Me.Label4.TabIndex = 24
         Me.Label4.Text = "Last Menstrual Cycle"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Century Gothic", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(318, 38)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(75, 17)
+        Me.Label8.Size = New System.Drawing.Size(69, 16)
         Me.Label8.TabIndex = 22
         Me.Label8.Text = "OB Doctor"
         '

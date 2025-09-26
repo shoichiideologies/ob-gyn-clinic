@@ -40,26 +40,21 @@ Public Class AddVitamins
     End Sub
 
     Private Sub btnAddVitamin_Click(sender As Object, e As EventArgs) Handles btnAddVitamin.Click
-        If gpbAddStocks.Enabled Then
-            Dim stocks As Integer
-            If Not String.IsNullOrEmpty(txbStocksScientificName.Text) OrElse Not String.IsNullOrEmpty(txbStocksQuantity.Text) Then
-                If Integer.TryParse(txbStocksQuantity.Text, stocks) Then
-                    Dim vitamin As String = txbStocksScientificName.Text
-                    Dim vitaminStocks As Integer = ReusableMethods.RetrieveData(4, vitamin, filePathVitamins, 1)
-                    UpdateStockQuantity(vitamin, stocks)
-                Else
-                    MessageBox.Show("Please enter a valid quantity.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-                End If
-            End If
-        ElseIf grbDrugDetails.Enabled Then
-            Dim vitamin As New Vitamins(cbbAppropriateTrimester.Text, cbbVitaminType.Text, txbManufactureName.Text, txbStocksScientificName.Text, txbPricePerPiece.Text, txbQuantity.Text)
-            Dim patientInfo As String = $"{vitamin.Vitamin1},{vitamin.ManufactureName1},{vitamin.ScientificName1},{vitamin.PricePerPiece1},{vitamin.Quantity1}"
+        ' Only add if all required fields are filled
+        If Not String.IsNullOrEmpty(txbStocksScientificName.Text) AndAlso
+           Not String.IsNullOrEmpty(txbManufactureName.Text) AndAlso
+           Not String.IsNullOrEmpty(txbPricePerPiece.Text) AndAlso
+           Not String.IsNullOrEmpty(txbStocksQuantity.Text) AndAlso
+           Not String.IsNullOrEmpty(cbbVitaminType.Text) Then
 
+            Dim newEntry As String = $"{cbbVitaminType.Text},{txbStocksScientificName.Text},{txbManufactureName.Text},{txbPricePerPiece.Text},{txbStocksQuantity.Text}"
             Using writer As New StreamWriter(filePathVitamins, True)
-                writer.WriteLine(patientInfo)
-                MessageBox.Show("You have successfully added a Vitamin!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                Me.Close()
+                writer.WriteLine(newEntry)
             End Using
+            MessageBox.Show("You have successfully added a Vitamin!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Me.Close()
+        Else
+            MessageBox.Show("Please fill in all required fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
     End Sub
 
