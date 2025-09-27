@@ -1,6 +1,6 @@
 # OB-GYN Clinic
 
-New OB Master Gyn Clinic is a desktop-based system designed to modernize patient records by storing data in `.txt` files, moving away from traditional manual record-keeping. The system prioritizes admin-friendliness, organization, innovation, and modern record management for clinics.
+New OB Master Gyn Clinic is a desktop-based system. Storing patient records data in `.txt` files, moving away from traditional manual record-keeping. The system prioritizes admin-friendliness, organization, innovation, and modern record management for clinics.
 
 This application was developed as a school project. The choice of tools and technologies was intentionally limited to assess students' adaptability and proficiency with the specified requirements.
 
