@@ -2,7 +2,7 @@
 
 Public Module FilePaths
     ' Get the project directory (two levels up from bin\Debug or bin\Release)
-    Public ReadOnly ProjectPath As String = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..\.."))
+    Public ReadOnly ProjectPath As String = Application.StartupPath
     Public ReadOnly TextFolder As String = Path.Combine(ProjectPath, "Text Files")
 
     ' File paths (directly inside Text Files folder)
