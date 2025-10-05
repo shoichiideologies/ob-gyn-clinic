@@ -6,6 +6,7 @@ This application was developed as a school project. The choice of tools and tech
 
 ## Technologies
 
+- **IDE:** Visual Studio
 - **Language:** VB.NET
 - **Framework:** .NET Framework
 - **UI Library:** GunaUI2.WinForms (NuGet package, free trial via university account)
